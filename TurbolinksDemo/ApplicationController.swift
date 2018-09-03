@@ -3,7 +3,7 @@ import WebKit
 import Turbolinks
 
 class ApplicationController: UINavigationController {
-    fileprivate let url = URL(string: "http://localhost:9292")!
+    fileprivate let url = URL(string: "https://my.fiatinsight.com")!
     fileprivate let webViewProcessPool = WKProcessPool()
 
     fileprivate var application: UIApplication {
@@ -26,10 +26,10 @@ class ApplicationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Switching this to false will prevent content from sitting beneath scrollbar
         navigationBar.isTranslucent = true
-        
+
         presentVisitableForSession(session, url: url)
     }
 
@@ -42,7 +42,7 @@ class ApplicationController: UINavigationController {
             popViewController(animated: false)
             pushViewController(visitable, animated: false)
         }
-        
+
         session.visit(visitable)
     }
 
@@ -71,7 +71,7 @@ extension ApplicationController: SessionDelegate {
             presentVisitableForSession(session, url: URL, action: action)
         }
     }
-    
+
     func session(_ session: Session, didFailRequestForVisitable visitable: Visitable, withError error: NSError) {
         NSLog("ERROR: %@", error)
         guard let demoViewController = visitable as? DemoViewController, let errorCode = ErrorCode(rawValue: error.code) else { return }
@@ -91,7 +91,7 @@ extension ApplicationController: SessionDelegate {
             demoViewController.presentError(.NetworkError)
         }
     }
-    
+
     func sessionDidStartRequest(_ session: Session) {
         application.isNetworkActivityIndicatorVisible = true
     }
