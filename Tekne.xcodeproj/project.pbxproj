@@ -18,6 +18,8 @@
 		2230A7EF1C874108001B4AC1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2230A7EE1C874108001B4AC1 /* Error.swift */; };
 		22CB5D901C62981700F24EA7 /* Turbolinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CB5D8D1C62980000F24EA7 /* Turbolinks.framework */; };
 		22CB5D911C62982800F24EA7 /* Turbolinks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22CB5D8D1C62980000F24EA7 /* Turbolinks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38C7F8DC213D5E5A00834201 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381DBFD8213D584000DE051A /* Images.xcassets */; };
+		38E6C9CE213D5923001DD23D /* fiat-logo-dark-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E6C9CC213D5923001DD23D /* fiat-logo-dark-1024.png */; };
 		8442C5A81C9F83D200FD8CC7 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442C5A71C9F83D200FD8CC7 /* UITests.swift */; };
 		92DF45171C81149B0064E606 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF45161C81149B0064E606 /* NumbersViewController.swift */; };
 /* End PBXBuildFile section */
@@ -72,7 +74,7 @@
 		1F5A34F91B67FF900029FDF3 /* AuthenticationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
 		1F8FC6A41B55A32000A781C8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F8FC6AB1B55A34500A781C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1FC168141B55A16C00AA6F43 /* TurbolinksDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurbolinksDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC168141B55A16C00AA6F43 /* Tekne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tekne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC168181B55A16C00AA6F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC168231B55A16C00AA6F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2230A7E81C869396001B4AC1 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,8 @@
 		2230A7EC1C869BD2001B4AC1 /* ErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
 		2230A7EE1C874108001B4AC1 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		22CB5D881C62980000F24EA7 /* Turbolinks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Turbolinks.xcodeproj; sourceTree = "<group>"; };
+		381DBFD8213D584000DE051A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38E6C9CC213D5923001DD23D /* fiat-logo-dark-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fiat-logo-dark-1024.png"; path = "Images.xcassets/AppIcon.appiconset/fiat-logo-dark-1024.png"; sourceTree = "<group>"; };
 		8442C5A51C9F83D200FD8CC7 /* UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8442C5A71C9F83D200FD8CC7 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		8442C5A91C9F83D200FD8CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,7 +122,7 @@
 		1FC168151B55A16C00AA6F43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FC168141B55A16C00AA6F43 /* TurbolinksDemo.app */,
+				1FC168141B55A16C00AA6F43 /* Tekne.app */,
 				8442C5A51C9F83D200FD8CC7 /* UI Tests.xctest */,
 			);
 			name = Products;
@@ -130,7 +134,9 @@
 				1F8FC6A41B55A32000A781C8 /* AppDelegate.swift */,
 				1F35399E1B6FB21A00AA7462 /* ApplicationController.swift */,
 				1F5A34F91B67FF900029FDF3 /* AuthenticationController.swift */,
+				381DBFD8213D584000DE051A /* Images.xcassets */,
 				2230A7E81C869396001B4AC1 /* DemoViewController.swift */,
+				38E6C9CC213D5923001DD23D /* fiat-logo-dark-1024.png */,
 				2230A7EE1C874108001B4AC1 /* Error.swift */,
 				2230A7EA1C8694EC001B4AC1 /* ErrorView.swift */,
 				92DF45161C81149B0064E606 /* NumbersViewController.swift */,
@@ -172,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FC168131B55A16C00AA6F43 /* TurbolinksDemo */ = {
+		1FC168131B55A16C00AA6F43 /* Tekne */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC168331B55A16C00AA6F43 /* Build configuration list for PBXNativeTarget "TurbolinksDemo" */;
+			buildConfigurationList = 1FC168331B55A16C00AA6F43 /* Build configuration list for PBXNativeTarget "Tekne" */;
 			buildPhases = (
 				1FC168101B55A16C00AA6F43 /* Sources */,
 				1FC168111B55A16C00AA6F43 /* Frameworks */,
@@ -186,9 +192,9 @@
 			dependencies = (
 				22CB5D8F1C62980900F24EA7 /* PBXTargetDependency */,
 			);
-			name = TurbolinksDemo;
+			name = Tekne;
 			productName = TurbolinksDemo;
-			productReference = 1FC168141B55A16C00AA6F43 /* TurbolinksDemo.app */;
+			productReference = 1FC168141B55A16C00AA6F43 /* Tekne.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8442C5A41C9F83D100FD8CC7 /* UI Tests */ = {
@@ -217,11 +223,12 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = Basecamp;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Fiat Insight";
 				TargetAttributes = {
 					1FC168131B55A16C00AA6F43 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = XAMC7A9Q4L;
 						LastSwiftMigration = 0910;
 					};
 					8442C5A41C9F83D100FD8CC7 = {
@@ -229,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1FC1680F1B55A16C00AA6F43 /* Build configuration list for PBXProject "TurbolinksDemo" */;
+			buildConfigurationList = 1FC1680F1B55A16C00AA6F43 /* Build configuration list for PBXProject "Tekne" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -248,7 +255,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1FC168131B55A16C00AA6F43 /* TurbolinksDemo */,
+				1FC168131B55A16C00AA6F43 /* Tekne */,
 				8442C5A41C9F83D100FD8CC7 /* UI Tests */,
 			);
 		};
@@ -276,6 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E6C9CE213D5923001DD23D /* fiat-logo-dark-1024.png in Resources */,
+				38C7F8DC213D5E5A00834201 /* Images.xcassets in Resources */,
 				1F8FC6AC1B55A34500A781C8 /* Main.storyboard in Resources */,
 				1FC168241B55A16C00AA6F43 /* LaunchScreen.xib in Resources */,
 				2230A7ED1C869BD2001B4AC1 /* ErrorView.xib in Resources */,
@@ -324,7 +333,7 @@
 		};
 		8442C5AB1C9F83D200FD8CC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC168131B55A16C00AA6F43 /* TurbolinksDemo */;
+			target = 1FC168131B55A16C00AA6F43 /* Tekne */;
 			targetProxy = 8442C5AA1C9F83D200FD8CC7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -361,12 +370,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -414,12 +425,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -432,6 +445,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -451,11 +465,13 @@
 		1FC168341B55A16C00AA6F43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XAMC7A9Q4L;
 				INFOPLIST_FILE = TurbolinksDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basecamp.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiatinsight.Tekne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -465,11 +481,13 @@
 		1FC168351B55A16C00AA6F43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XAMC7A9Q4L;
 				INFOPLIST_FILE = TurbolinksDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basecamp.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiatinsight.Tekne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -507,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FC1680F1B55A16C00AA6F43 /* Build configuration list for PBXProject "TurbolinksDemo" */ = {
+		1FC1680F1B55A16C00AA6F43 /* Build configuration list for PBXProject "Tekne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC168311B55A16C00AA6F43 /* Debug */,
@@ -516,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC168331B55A16C00AA6F43 /* Build configuration list for PBXNativeTarget "TurbolinksDemo" */ = {
+		1FC168331B55A16C00AA6F43 /* Build configuration list for PBXNativeTarget "Tekne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC168341B55A16C00AA6F43 /* Debug */,

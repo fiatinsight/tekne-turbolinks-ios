@@ -14,7 +14,7 @@ class ApplicationController: UINavigationController {
         let configuration = WKWebViewConfiguration()
         configuration.userContentController.add(self, name: "turbolinksDemo")
         configuration.processPool = self.webViewProcessPool
-        configuration.applicationNameForUserAgent = "TurbolinksDemo"
+        configuration.applicationNameForUserAgent = "Tekne"
         return configuration
     }()
 

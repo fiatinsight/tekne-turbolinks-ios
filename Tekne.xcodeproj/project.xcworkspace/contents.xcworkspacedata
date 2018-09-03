@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/andrewhaines/Projects/native/ios/tekne-turbolinks-ios/Tekne.xcodeproj">
    </FileRef>
 </Workspace>
